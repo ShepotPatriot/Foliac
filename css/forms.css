@@ -1,0 +1,43 @@
+.form {
+	max-width: 700px;
+	width: 100%;
+	margin: 50px auto;
+}
+
+.form__input {
+	border: 2px solid #3c4955;
+	font-weight: bold;
+	background-color: #f1f1f1;
+	border-radius: 4px;
+	width: 100%;
+	padding: 15px 20px 15px 70px;
+	resize: none;
+	margin-bottom: 30px;
+	background-image: url(../img/arrow.png), linear-gradient(to right, #3c4955 0%, #3c4955 50px, #f1f1f1 50px, #f1f1f1 100%);
+	background-repeat: no-repeat;
+	background-position: 42px 18px, left center;
+}
+
+.form__input[type="text"],
+.form__input[type="text"]:-webkit-autofill {
+	background-image: url(../img/user.png), url(../img/arrow.png), linear-gradient(to right, #3c4955 0%, #3c4955 50px, #f1f1f1 50px, #f1f1f1 100%);
+	background-position: 12px 11px, 42px 18px, left center;
+
+}
+.form__input[type="email"],
+.form__input[type="email"]:-webkit-autofill {
+	background-image: url(../img/mail.png), url(../img/arrow.png),  linear-gradient(to right, #3c4955 0%, #3c4955 50px, #f1f1f1 50px, #f1f1f1 100%);
+	background-position: 13px 15px, 42px 18px, left center;
+
+}
+/* .form_input[type="text"] {
+	background-image: url(../img/arrow.png), linear-gradient(to right, #3c4955 0%, #3c4955 50px, #f1f1f1 50px, #f1f1f1 100%);
+
+} */
+
+textarea.form__input,
+textarea.form__input:-webkit-autofill {
+	height: 230px;
+	background-image: url(../img/crayon.png), url(../img/arrow.png), linear-gradient(to right, #3c4955 0%, #3c4955 50px, #f1f1f1 50px, #f1f1f1 100%); 
+	background-position: 12px 11px, 42px 18px, left center;
+}
